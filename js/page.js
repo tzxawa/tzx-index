@@ -1370,7 +1370,7 @@ var parcelRequire = function(a, s, t, e) {
 {},
 ["Bb20"]);
 var image = new Image();
-image.src = 'img/avatar.webp';
+image.src = 'img/avatar.ico';
 image.onload = function() {
   var canvas = document.createElement('canvas');
   canvas.width = image.width;
