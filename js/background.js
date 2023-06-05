@@ -216,7 +216,7 @@ function(e) {
   gl.drawElements(gl.TRIANGLES, 6, gl.UNSIGNED_SHORT, 0)
 }),
 bloomFramebuffers = [],
-ditheringTexture = createTextureAsync("img/background.png"),
+ditheringTexture = createTextureAsync("img/background.webp"),
 blurProgram = new Program(blurVertexShader, blurShader),
 copyProgram = new Program(baseVertexShader, copyShader),
 clearProgram = new Program(baseVertexShader, clearShader),
